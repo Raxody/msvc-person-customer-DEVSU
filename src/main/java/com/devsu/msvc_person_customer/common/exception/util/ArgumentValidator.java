@@ -1,4 +1,4 @@
-package com.devsu.msvc_person_customer.common.util;
+package com.devsu.msvc_person_customer.common.exception.util;
 
 import com.devsu.msvc_person_customer.common.exception.BusinessException;
 import com.devsu.msvc_person_customer.common.exception.ErrorCodesEnum;
@@ -13,7 +13,7 @@ public class ArgumentValidator {
     private ArgumentValidator() { /**/ }
 
     public static void requireNotEmpty(String value, String field) {
-        if (value.isBlank()) {
+        if (value == null || value.isBlank()) {
             throw new BusinessException(ErrorCodesEnum.NOT_NULL, field);
         }
     }

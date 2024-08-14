@@ -1,7 +1,7 @@
-package com.devsu.msvc_person_customer.customer.mapper;
+package com.devsu.msvc_person_customer.mapper;
 
-import com.devsu.msvc_person_customer.customer.dto.CustomerDTO;
-import com.devsu.msvc_person_customer.customer.entity.Customer;
+import com.devsu.msvc_person_customer.dto.CustomerDTO;
+import com.devsu.msvc_person_customer.entity.Customer;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;

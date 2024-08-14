@@ -1,4 +1,4 @@
-package com.devsu.msvc_person_customer.customer.dto;
+package com.devsu.msvc_person_customer.dto;
 
 public class CustomerDTO {
     private String name;

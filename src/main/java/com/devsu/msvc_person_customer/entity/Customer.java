@@ -1,4 +1,4 @@
-package com.devsu.msvc_person_customer.customer.entity;
+package com.devsu.msvc_person_customer.entity;
 
 import jakarta.persistence.*;
 @Entity

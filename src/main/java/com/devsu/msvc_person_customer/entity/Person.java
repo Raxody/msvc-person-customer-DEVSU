@@ -1,10 +1,9 @@
-package com.devsu.msvc_person_customer.customer.entity;
+package com.devsu.msvc_person_customer.entity;
 
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 @Entity
 @Table(name = "person")

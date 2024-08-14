@@ -1,9 +1,8 @@
-package com.devsu.msvc_person_customer.customer.service;
+package com.devsu.msvc_person_customer.service;
 
-import com.devsu.msvc_person_customer.customer.dto.CustomerDTO;
+import com.devsu.msvc_person_customer.dto.CustomerDTO;
 
 import java.util.List;
-import java.util.UUID;
 
 public interface CustomerService {
 
